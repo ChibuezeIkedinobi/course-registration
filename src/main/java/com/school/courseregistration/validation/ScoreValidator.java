@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ScoreValidator implements ConstraintValidator<Score, String> {
 
-    List<String> scores = List.of("A", "B", "C", "D", "F",);
+    List<String> scores = List.of("A", "B", "C", "D", "F");
 
     @Override
     public boolean isValid(String value, ConstraintValidatorContext context) {
